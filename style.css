@@ -1,0 +1,99 @@
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  box-sizing: border-box;
+  min-height: 100vh;
+  font-family: montserrat, sans-serif;
+}
+
+.home {
+  background-color: #6bb523;
+}
+
+.schedule, .teams, .media, .about{
+  background-color: white;
+}
+
+.active-tab {
+}
+
+a:hover {
+  color: #696969;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  height: 100px;
+  width: 100px;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  transform: skewY(10deg);
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+li {
+  background-color: black;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: space-between;
+  width: 100%;
+}
+
+.center {
+  display: flex;
+  flex: 1 1 auto;
+  background-color: black;
+  padding-bottom: 10px;
+}
+
+.menu {
+  flex: 0 0 auto;
+  background-color: black;
+  width: 100px;
+}
+
+.content {
+  flex: 1 1 auto;
+  display: flex;
+  background-color: #6bb523;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  height: 50px;
+  color: white;
+  flex-grow: 0 0 auto;
+  font-size: 10px;
+  font-style: italic;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  height: 100px;
+  flex-grow: 1 1 auto;
+}
