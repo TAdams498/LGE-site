@@ -39,15 +39,24 @@ a {
     list-style: none;
     justify-content: space-between;
     align-items: center;
-    width: 40%;
+    width: 50%;
+    padding-left: 10px;
+    padding-right: 10px;
 }
-.nav-text {
+.nav-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0 auto;
     font-weight: 600;
     font-size: 17px;
     height: 100%;
+    text-align: center;
 }
-.nav-text:hover {
+.nav-item:hover {
     background-color: #EDEDED;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 .social-links, .balancer {
     display: flex;
